@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="head">
+        <span class="item">VOYAGER</span>
+        <div id="menu">
+            <div class="item"><a routerLink="/home">HOME</a></div>
+            <div class="item"> <a routerLink="/work">CARS</a></div>
+            <div class="item"><a routerLink="/orders">ORDERS</a></div>
+            <div class="item" (click)="logout()" id="mlogout">LOGOUT</div>
+        </div>
+    </div>
+    <img height="95%" width="100%" src="https://firebasestorage.googleapis.com/v0/b/example-e2b44.appspot.com/o/car_ex.jpg?alt=media&token=03d2b00f-f19c-498c-a52a-8a5ca742e1ad" alt="">
+   <div id="addplate">
+       <span id="mheading">ADD ADMIN</span>
+       <mat-form-field appearance="outline" id="in">
+        <mat-label>USER NAME</mat-label>
+        <input matInput placeholder="USER NAME" [(ngModel)]="username" required>
+      </mat-form-field>
+      <mat-form-field appearance="outline" id="in">
+        <mat-label>PASSWORD</mat-label>
+        <input matInput type="password" placeholder="PASSWORD" [(ngModel)]="password" required >
+      </mat-form-field>
+      <mat-form-field appearance="outline" id="in">
+        <mat-label>FIRST NAME</mat-label>
+        <input matInput placeholder="FIRST NAME" [(ngModel)]="name" required>
+      </mat-form-field>
+      <mat-form-field appearance="outline" id="in">
+        <mat-label>LAST NAME</mat-label>
+        <input matInput placeholder="LAST NAME" [(ngModel)]="lastname" required>
+      </mat-form-field>
+      <button id="adderb" (click)="add()">ADD</button>
+      <span id="msg">{{msg}}</span>
+   </div>
+
+</body>
+
+</html>

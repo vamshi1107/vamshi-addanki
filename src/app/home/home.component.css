@@ -1,0 +1,113 @@
+body{
+    background-color: black;
+}
+
+#head{
+    position: sticky;
+    margin-top: 0px;
+    width: 100%;
+    z-index: 1000;
+    left: 0px;
+    color: white;
+    font-size: 25px;
+    font-family: fantasy;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.712);
+    top:0px;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.item{
+    color: white;
+    margin: 10px 10px 10px 10px;
+    text-decoration: none;
+    
+}
+
+.item a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    margin-left:  10px ;
+    margin-right: 10px;
+}
+
+.cover{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/example-e2b44.appspot.com/o/car_ex.jpg?alt=media&token=03d2b00f-f19c-498c-a52a-8a5ca742e1ad");
+    background: cover;
+    background-position: 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: fanstasy;
+    color: whitesmoke;
+    position: relative;
+    
+}
+.cover p{
+    font-size: 50px;
+
+    position: absolute;
+    font-family: fantasy;
+    word-spacing: 3px;
+   margin-left: 10vh;
+   margin-top: 40vh;
+  
+}
+
+#mlogout{
+    color: blue;
+}
+
+#addplate{
+    width: 80%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: beige;
+    flex-direction: column;
+    text-align: center;
+}
+
+#in{
+    width: 40%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#adderb{
+    width: 35%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    background-color: cadetblue;
+    border-radius: 25px;
+}
+
+#adderb:focus,:active{
+    outline: none;
+}
+
+#mheading{
+    margin: 10px 10px 10px 10px;
+    font-size: 25px;
+    font-family: fantasy;
+}
+
+#msg{
+    color: green;
+    font-size: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}

@@ -1,0 +1,44 @@
+#plate{
+    background-color: whitesmoke;
+    height: 500px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 100px;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.entry{
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width:40%;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 10px ;
+    margin-bottom:10px;
+    font-family:cursive;
+    font-size: 20px;
+}
+
+.entry:focus,:active{
+    outline: none;
+}
+#user{
+    margin-top: 100px;
+}
+
+#lname{
+    font-family: fantasy;
+    margin-top: 50px;
+    font-size: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mlogout{
+    color: blue;
+}

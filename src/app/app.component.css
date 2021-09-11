@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+
+#head{
+    position: sticky;
+    margin-top: 0px;
+    width: 100%;
+    z-index: 1000;
+    left: 0px;
+    color: white;
+    font-size: 30px;
+    font-family: fantasy;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: bisque;
+    top:0px;
+    height: 50px;
+    padding: 10px 10px 10px 10px;
+}
+
+.item{
+    color: white;
+    margin: 10px 10px 10px 10px;
+    text-decoration: none;
+    
+}
+
+.item a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    overflow: auto;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: aliceblue;
+
+}
